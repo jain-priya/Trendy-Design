@@ -9,5 +9,5 @@ var server = app.listen(port, function () {
 
 app.get('/', (request, response) => {
     console.log(__dirname);
-    response.sendFile(__dirname + "index.html");
+    response.sendFile("./index.html");
 });
